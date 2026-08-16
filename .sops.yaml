@@ -4,5 +4,6 @@
 # ЗАПОЛНИ: замени плейсхолдер на СВОЙ публичный ключ из вывода age-keygen
 # (строка вида age1...). Приватный ключ (age-key.txt) НИКОГДА не коммить.
 creation_rules:
-  - path_regex: helm/.*/secrets.*\.yaml$
-    age: age1ПЛЕЙСХОЛДЕР_ЗАМЕНИ_НА_СВОЙ_ПУБЛИЧНЫЙ_КЛЮЧ
+  - path_regex: .*secrets.*\.yaml$
+    age: age1p7tv5dgg2qn9vm5gujpxg8qn4u0502ctzxa4637zrdmw6cwc89mqa8vz93
+
